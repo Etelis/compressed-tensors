@@ -63,7 +63,7 @@ def test_need_config_groups():
 
 @pytest.mark.parametrize(
     "scheme_name",
-    ["W8A8", "W8A16", "W4A16", "FP8"],
+    ["W8A8", "W8A16", "W4A16", "W4AFP8", "FP8"],
 )
 def test_load_scheme_from_preset(scheme_name: str):
     targets = ["Linear"]
